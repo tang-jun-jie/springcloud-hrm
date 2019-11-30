@@ -16,3 +16,4 @@ zuul:
   prefix: "/tang" #统一访问路径的前缀
   routes:
     system-server: "/systems/**"
+    course-server: "/course/**"
