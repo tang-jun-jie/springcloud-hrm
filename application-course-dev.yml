@@ -16,3 +16,6 @@ spring:
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql:///hrm-course?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+feign:
+  hystrix:
+    enabled: true
