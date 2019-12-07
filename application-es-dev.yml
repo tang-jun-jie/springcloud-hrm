@@ -13,4 +13,4 @@ spring:
     data:
         elasticsearch:
           cluster-name: my-ealsticsearch
-          cluster-nodes: 127.0.0.1:9201 #9200是图形界面端,9300代码端
+          cluster-nodes: 127.0.0.1:9301 #9200是图形界面端,9300代码端
