@@ -18,3 +18,4 @@ zuul:
     system-server: "/systems/**"
     course-server: "/course/**"
     redis-server: "/redis/**"
+    fastdfs-server: "/fastdfs/**"
