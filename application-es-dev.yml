@@ -12,5 +12,5 @@ spring:
     name: es-server
   data:
     elasticsearch:
-      cluster-name: ealsticsearch
+      cluster-name: elasticsearch
       cluster-nodes: 127.0.0.1:9300 #9200是图形界面端,9300代码端
