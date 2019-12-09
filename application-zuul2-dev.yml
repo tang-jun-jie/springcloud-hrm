@@ -1,0 +1,22 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1010/eureka/ #注册中心地址
+  instance:
+    prefer-ip-address: true #使用ip地址注册
+    instance-id: zuul-server  #指定服务的id
+server:
+  port: 1021
+spring:
+  application:
+    name: zuul-server
+#配置zuul
+zuul:
+  ignoredServices: "*" #忽略(不准)服务名方式访问
+  prefix: "/tang" #统一访问路径的前缀
+  routes:
+    system-server: "/systems/**"
+    course-server: "/course/**"
+    redis-server: "/redis/**"
+    fastdfs-server: "/fastdfs/**"
+    es-server: "/es/**"
