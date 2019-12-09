@@ -12,6 +12,7 @@ spring:
     name: zuul-server
 #配置zuul
 zuul:
+  include-debug-header: true
   ignoredServices: "*" #忽略(不准)服务名方式访问
   prefix: "/tang" #统一访问路径的前缀
   routes:
