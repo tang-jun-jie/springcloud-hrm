@@ -21,3 +21,4 @@ zuul:
     redis-server: "/redis/**"
     fastdfs-server: "/fastdfs/**"
     es-server: "/es/**"
+    page-server: "/page/**"
