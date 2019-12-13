@@ -8,7 +8,7 @@ eureka:
 server:
   port: 2070
 spring:
- rabbitmq:
+  rabbitmq:
       host: localhost
       port: 5672
       username: guest
