@@ -8,6 +8,14 @@ eureka:
 server:
   port: 2060
 spring:
+ rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+      listener:
+        simple:
+          acknowledge-mode: manual
   application:
     name: page-server
   datasource:
