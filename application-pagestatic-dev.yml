@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1010/eureka/ #注册中心地址
+  instance:
+    prefer-ip-address: true #使用ip地址注册
+    instance-id: pagestatic-server:2070  #指定服务的id
+server:
+  port: 2070
+spring:
+ rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+      listener:
+        simple:
+          acknowledge-mode: manual
+  application:
+    name: pagestatic-server
+feign:
+  hystrix:
+    enabled: true
