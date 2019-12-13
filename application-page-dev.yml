@@ -27,5 +27,3 @@ spring:
 feign:
   hystrix:
     enabled: true
-pagestatic:
-  routingKey: hrmCourseSite
