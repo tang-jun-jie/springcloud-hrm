@@ -22,3 +22,4 @@ zuul:
     fastdfs-server: "/fastdfs/**"
     es-server: "/es/**"
     page-server: "/page/**"
+    pagestatic-server: "/pagestatic/**"
